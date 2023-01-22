@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+.tablink {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 17px;
+  width: 15%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content */
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+  height: 100vh;
+}
+
+p {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background: white;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+span {
+  color: red;
+  padding: 5px;
+}
+
+#HTML {
+  background-color: rgb(243, 122, 122);
+}
+
+#CSS {
+  background-color: rgb(198, 237, 107);
+}
+
+#JAVASCRIPT {
+  background-color: rgb(51, 124, 249);
+}
+
+#react {
+  background-color: rgb(234, 215, 93);
+}
+
+
+
+/* SIDEBAR STUFF */
+
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #f5f6fa;
+    margin: auto;
+}
+
+/* 
+.handle {
+  float: left;
+  width: 10px;
+  height: calc(~"100% - 50px");
+  background: #ddd;
+  cursor: ew-resize;
+} */
+
+
+.contenttabs{
+    margin-left: 250px;
+  height: calc(~"100% - 50px");
+  overflow: auto;
+}
+
+.wrapper .sidebar{
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    margin-left: 40px;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+
+.singletab{}
